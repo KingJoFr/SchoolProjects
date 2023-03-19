@@ -1,0 +1,14 @@
+class Animal:
+    movement = ['locomotion', 'swimming','flying']
+    
+    def __init__(self, name, age, move):
+        self.name = name
+        self.age = age
+        self.move = move
+        
+    def make_sound(self):
+        print('Generic animal sound')
+        
+if __name__=='__main__':
+    bob = Animal('Tagget', 4, 'locomotion')
+    sue = Animal
