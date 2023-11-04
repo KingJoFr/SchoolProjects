@@ -30,7 +30,7 @@ class MenuDemo:
 
         #create images
         plus = PhotoImage(file = "/home/kingjofr/Desktop/SchoolProjects/Images/plus.png")
-        minus = PhotoImage(file = "/home/kingjofr/Desktop/SchoolProjects/Images/mark.png")
+        minus = PhotoImage(file = "/home/kingjofr/Desktop/SchoolProjects/Images/markcd.png")
 
         Button(frame0, image = plus, command = self.add).grid(row = 1, column = 1, sticky = W)
         Button(frame0, image = minus, command = self.subtract).grid(row = 1, column = 2)
